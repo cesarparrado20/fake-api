@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 79
+exclude = '''
+/(
+    venv
+)/
+'''
+
+[tool.autoflake]
+remove-unused-variables = true
+remove-all-unused-imports = true
+exclude = '''
+venv
+'''
