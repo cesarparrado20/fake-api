@@ -12,3 +12,6 @@ remove-all-unused-imports = true
 exclude = '''
 venv
 '''
+
+[tool.commitizen]
+name = "cz_gitmoji"
